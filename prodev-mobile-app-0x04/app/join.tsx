@@ -11,7 +11,7 @@ export default function Index() {
         <ScrollView contentContainerStyle={{ paddingBottom: 40 }} showsVerticalScrollIndicator={false}>
           <View style={styles.navGroup}>
             <Ionicons name="arrow-back" size={25} />
-            <Image source={require('@/assets/images/Logo.png')} />
+            <Image source={require('@/assets/images/logo.png')} />
           </View>
           <Text style={styles.largeText}>Create</Text>
           <Text style={styles.largeText}>Account</Text>
